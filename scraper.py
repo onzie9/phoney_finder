@@ -61,4 +61,4 @@ for x in range(1, 24):
 
 df = pd.DataFrame(columns=["Player1", "Player2", "Game URL", "Played Words", "Phony Played"], data=data)
 
-df.to_csv("phoney_finds.csv")
+df.to_csv("phoney_finds.csv", index=False)
